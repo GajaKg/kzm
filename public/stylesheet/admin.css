@@ -1,0 +1,159 @@
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+    background-color: #eee;
+}
+
+#wrapper {
+	width: 1050px;
+	margin: 0px auto 15px;
+	padding: 0px;	
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#logo {
+	background-image: url(../images/sajt/personal2.png);
+	height: 502px;
+}
+
+a, a:link, a:active {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+}
+
+#navigation {
+	background-image: url(../images/sajt/logobackground.png);
+	background-repeat: repeat-x;
+	height: 100px;
+	text-align: center;
+}
+
+#navigation a {
+	text-decoration: none;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 27px;
+	font-style: italic;
+	color: #030;
+	font-weight: bold;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#navigation a:hover {
+	text-decoration: none;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 27px;
+	font-style: italic;
+	color: #F60;
+	font-weight: bold;
+}
+
+#menu li {
+	padding: 40px 15px 0px;
+	display: inline-block;
+}
+
+#breadcrumb1 {
+    text-align: center;
+	background-color: #8ecf1d;
+    padding: 5px 8px;
+    font-size: 18px;
+}
+
+#breadcrumb2 {
+    text-align: center;
+	background-color: #8ecf1d;
+    padding: 5px 8px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: bolder;
+    color: darkred;
+    border: 2px solid yellow;
+    background-color: yellow;
+}
+
+#news {
+	width: 100%;	
+	padding-bottom: 40px;
+}
+
+.title {
+	background: linear-gradient(to bottom right, red, #8ecf1d);
+	padding: 5px;
+	font-size: 24px;	
+}
+
+.author {
+	font-size: 12px;
+}
+
+.content {
+	font-size: 20px;
+	padding: 5px;
+    text-align: justify;
+}
+
+.readmore {
+	text-align: right;
+}
+
+#content {
+	background-color: #8ecf1d;
+    font-size: 18px;
+    padding: 10px;
+    width: 1030px;
+}
+
+p img {
+    float: left;
+    margin: 5px 12px 9px 0px;
+    box-shadow: 10px 10px 5px darkgreen;
+}
+
+#footer1 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 3px;
+}
+
+.f1 {
+    border-right: 1px solid gray;
+    width: 33%;
+    float: left;
+}
+
+.titlef1 {
+	background: linear-gradient(to bottom right, red, #8ecf1d);
+	padding: 2px;
+	font-size: 16px;
+    width: 100%;	
+}
+
+.f2 {
+    border-right: 1px solid gray;
+    width: 33%;
+    float: left;
+}
+
+.f3 {
+    border-right: 1px solid gray;
+    width: 33%;
+    float: right;
+}
+
+#footer2 {
+    background-color: #2A3419;
+    color: white;
+    text-align: center;
+    padding: 10px;  
+    clear: both;
+}
